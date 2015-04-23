@@ -12,16 +12,22 @@ public class Lap1 {
 	/**
 	 * @param args
 	 */
+	static String Praktikum = "Praktikum1";
 	public static void main(String[] args) { 
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method 
 		perkalian(); //pemanggilan fungsi perkalian
 		pembagian(); //pemanggilan fungsi pembagian
 		penjumlahan(); //pemanggilan fungsi penjumlahan
 		pengurangan(); //pemanggilan fungsi pengurangan
 		biodata(); //pemanggilan fungsi biodata
+		test();//pemanggilan fungsi test
 
 	}
 	
+	public static void test()
+	{
+		System.out.println(Praktikum);
+	}
 	//perkalian
 	public static void perkalian() 
 	{
